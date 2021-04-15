@@ -1,0 +1,50 @@
+.tweets-body {
+    border-left: thin solid rgb(243, 237, 237);
+    border-right: thin solid  rgb(243, 237, 237);
+    min-width: 40vw;
+}
+
+
+
+/*
+#navbar {
+    left: 0;
+    right: 0;
+}*/
+
+.searchbar input {
+    background-color: #E1E8ED;
+    color: #657786;
+    border-radius: 50px;
+    float: center;
+    padding: 0.5rem;
+    border: none;
+    min-width: 35rem; 
+    margin: 2rem;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    position: center;
+}
+    
+.navbar-link{
+    justify-content: space-between;
+    text-decoration: none;
+    color: #657786;
+    padding: 3rem 3rem 2rem 3rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    display: inline;
+
+}
+
+a:hover {
+    border-bottom: 3px solid #1DA1F2;
+}
+

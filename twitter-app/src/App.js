@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 
-function App() {
+//Import Components
+import Nav from "./components/Nav";
+import Tweets from "./components/Tweets";
+import SearchCol from "./components/SearchCol";
+
+const App = () => {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Twitter Page Group 2</h1>
+      <div className="home">
+      <Nav />
+      <Tweets />
+      <SearchCol />
+    </div>
     </div>
   );
-}
+};
 
 export default App;
