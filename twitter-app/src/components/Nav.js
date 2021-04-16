@@ -1,9 +1,10 @@
 import React from 'react';
+import {Switch, Route, NavLink, HashRouter as Router} from "react-router-dom";
 
 //importing css
 import './Nav.css';
 //importing icons
-import { FiTwitter} from "react-icons/fi"
+//import { FiTwitter} from "react-icons/fi"
 import { IoHomeOutline} from "react-icons/io5"
 import { FaHashtag } from "react-icons/fa"
 import { BsBell } from "react-icons/bs"
@@ -16,11 +17,11 @@ import { CgMoreO } from "react-icons/cg"
 const Nav = () => (
 <div className="nav-body">
     <nav>
+        {/* <li>
+            <a><img src="../twitter.png" width="40" alt="twitter icon"/></a>
+        </li> */}
         <li>
-        <img src="/components/twitter.png" alt="Twitter Flattervogel" ></img>
-        </li>
-        <li>
-            <IoHomeOutline /><a>Home</a>
+            <IoHomeOutline /><a href="/">Home</a>
         </li>
         <li>
             <FaHashtag /><a>Explore</a>
@@ -43,11 +44,18 @@ const Nav = () => (
         <li>
             <CgMoreO /><a>More</a>
         </li>
-        <li>
-            <a>Tweet</a>
-        </li>
+        
+        <div className="Tweet">
+            <li>
+                <a>Tweet</a>
+            </li>
+        </div>
     </nav>
 </div>
 );
 
 export default Nav; 
+
+
+
+//<img src="/src/twitter.png" alt="Twitter Flattervogel" ></img>

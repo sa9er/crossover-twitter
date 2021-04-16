@@ -1,10 +1,9 @@
 .tweets-body {
     border-left: thin solid rgb(243, 237, 237);
     border-right: thin solid  rgb(243, 237, 237);
-    min-width: 40vw;
+    /* min-width: 20vw;
+    max-width: 40vw; */
 }
-
-
 
 /*
 #navbar {
@@ -19,8 +18,12 @@
     float: center;
     padding: 0.5rem;
     border: none;
-    min-width: 35rem; 
-    margin: 2rem;
+    min-width: 40rem; 
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+#navbar {
+    padding: 1rem;
 }
 
 .navbar-menu {
@@ -29,6 +32,8 @@
     justify-content: space-between;
     align-items: center;
     position: center;
+    min-width: 35rem;
+    padding-bottom: 2rem;
 }
     
 .navbar-link{
@@ -39,12 +44,50 @@
     font-weight: bold;
 }
 
-.navbar-item {
-    display: inline;
-
-}
-
-a:hover {
+.navbar-link a:hover {
     border-bottom: 3px solid #1DA1F2;
 }
 
+.navbar-item {
+    display: inline;
+}
+
+.navbar-item a:hover {
+    border-bottom: 3px solid #1DA1F2;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.tweets-array {
+    padding: 2rem;
+}
+
+.tweets-array li::marker {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* .tweets-array a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+} */
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tweets-array a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}

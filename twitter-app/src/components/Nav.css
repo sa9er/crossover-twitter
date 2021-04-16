@@ -1,16 +1,45 @@
-.nav-body{
-   width: 20rem;
-   border: thin solid grey;
-   list-style: none;
-   padding: 2rem 0;
-   text-align: center;
-   color: black;
-   text-align: left;
-   font-weight: bold;
-   font-size: large;
-   padding: 2rem;
+.Tweet {
+  background-color: #1DA1F2 ;
+  border: thin solid gray;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+.Tweet a {
+color: white;
+}
+
+
+.Tweet a:hover {
+  color: black;
+  }
+
+
+.nav-body {
+  width: 20rem;
+  border: thin solid grey;
+  list-style: none;
+  text-align: center;
+  text-align: left;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+li {
+  color: black;
+  padding: 1rem;
 }
 
 a:hover {
-    color: #1DA1F2;
+  color: #1DA1F2;
+}
+
+a {
+padding: 0.5rem;
+}
+
+.singleTweet {
+  min-width: 50vw;
 }
